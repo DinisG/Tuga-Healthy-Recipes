@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5C5D60;
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.column1{
+    width: 50%;
+    margin: auto;
+}
+.login{
+    width: 100%;
+}
+
+.login h1{
+    text-align: center;
+    padding-bottom: 2%;
+    color: #5C5D60;
+    font-size: 3em;
+}
+
+.login p{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 4%;
+}
+
+
+.actions .btn-google{
+    background-color: white;
+    width: 35%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color:#5C5D60;
+    margin-left: 32%;
+    border-radius: 0%;
+}
+
+.actions .btn-google .icon{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.actions .btn-google .icon p{
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.actions .btn-google .icon img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.form-group{
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.form-group .form-control{
+    width: 100%;
+    height: 100%;
+    padding: 7px 10px;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #000008;
+}
+
+.form-group .form-control:focus{
+    border-bottom: 2px solid #000008;
+}
+
+.spliter{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    position: relative;
+}
+
+.splitter h3::before{
+    content:"";
+    height: 2px;
+    width: 50vw;
+    background-color: black;
+    position: absolute;
+}
+
+.form-button{
+    display: flex;
+    width: 100%;
+}
+
+.check-action{
+    margin-left: 20%;
+}
+
+.form-button .link{
+    margin-left:21%
+}
+
+.actions .btn-submit{
+    background-color: black;
+    width: 35%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color:white;
+    margin-top: 5%;
+    margin-left: 32%;
+}
+
+.registar{
+    margin-top: 5%;
+}
+
+.column2{
+    width: 50%;
+    margin: auto;
+}
+
+.column2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    
+}
+
+.column2 .texto1 h1{
+    position: absolute;
+    top: 0;
+    color:white;
+    font-family: 'GFS Didot', serif;;
+    font-size: 500%;
+
+}
+
+.column2 .texto2 h1{
+    position: absolute;
+    color:white;
+    font-family: 'GFS Didot', serif;;
+    font-size: 500%;
+
+}
+
+@media screen and (max-width:1250px)  {
+    .column2{
+        display: none;
+    }
+    .column1{
+        margin-top: 5%;
+    }
+}
